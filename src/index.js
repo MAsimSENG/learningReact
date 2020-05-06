@@ -3,7 +3,9 @@ import React from "react"
 import ReactDOM from 'react-dom'
 import app from './components/app'
 
+
 // styling with react
+ReactDOM.render(app(),document.getElementById('root'))
 
 
 
